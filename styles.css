@@ -189,3 +189,42 @@ footer p {
   font-size: 0.75rem;
   padding: 30px 0;
 }
+
+/* mobile css */
+@media only screen and (max-width: 600px) {
+  .mountain {
+    width: 100%;
+  }
+  .bio {
+    margin: 60px auto;
+  }
+  .headshot {
+    width: 225px;
+  }
+  .section-intro {
+    margin: 20px auto;
+  }
+  .bio-text {
+    width: 80%;
+    text-align: left;
+  }
+  .skills {
+    margin: 60px auto;
+  }
+  .skill-1,
+  .skill-2 {
+    width: 80%;
+  }
+  .skill-topic {
+    margin-bottom: 40px;
+  }
+  .contact {
+    margin: 40px auto;
+  }
+  .contact-topic {
+    margin: 30px auto;
+  }
+  .contact-brief {
+    width: 80%;
+  }
+}
