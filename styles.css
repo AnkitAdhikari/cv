@@ -206,7 +206,8 @@ footer p {
   .section-intro {
     margin: 20px auto;
   }
-  .bio-text {
+  .bio-text,
+  .skill-brief {
     width: 80%;
     text-align: left;
   }
