@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat";
+  overflow-x: hidden;
 }
+
 .intro {
   /* height: 80vh; */
   background-color: #e4f9f5;
