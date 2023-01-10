@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,72 +25,82 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
-    <div class="top-container">
-      <img class="top-cloud" src="cloud.png" alt="cloud-img" />
-      <h1>I'm Ankit.</h1>
-      <h2 class="subtitle">A programmer.</h2>
-      <img class="bottom-cloud" src="cloud.png" alt="cloud-img" />
-      <img class="mountain" src="mountain.png" alt="mountain-img" />
-    </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img class="profile-image" src="ankit_profile-modified.png" alt="" />
-        <h2>Hello.</h2>
-        <p>
+    <main>
+      <section class="intro">
+        <img class="top-cloud" src="cloud.png" alt="cloud photo" />
+        <h1 class="heading">I'm Ankit.</h1>
+        <h2 class="section-intro">
+          a <span class="underline-text">pro</span>grammer.
+        </h2>
+        <img class="bottom-cloud" src="cloud.png" alt="cloud photo" />
+        <img class="mountain" src="mountain.png" alt="mountain" />
+      </section>
+      <article class="bio">
+        <img
+          class="headshot"
+          src="ankit_profile-modified.png"
+          alt="Ankit's picture"
+        />
+        <h2 class="section-intro bio-heading">Hello.</h2>
+        <p class="bio-text">
           Hello! My name is Ankit Adhikari, and I am currently a computer
           science student at Tribhuvan University. I am eager to learn and have
           a passion for technology and its application in solving real-world
           problems.
         </p>
-      </div>
+      </article>
       <hr />
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="code-image" src="coding.png" alt="" />
-          <h3>Front-end Web developement</h3>
-          <p>
+      <section class="skills">
+        <h2 class="section-intro skills-heading">My Skills.</h2>
+        <div class="skill-1">
+          <img class="skill-image image-left" src="coding.png" alt="coding" />
+          <h3 class="skill-topic">Front-end Web developement</h3>
+          <p class="skill-brief">
             I am new to web development and I am currently learning HTML, CSS &
             Js. One of the front-end projects I have built is the current
             website you are viewing and hope to add a new project soon.
           </p>
         </div>
-        <div class="skill-row">
-          <img class="c-image" src="c-document.png" alt="" />
-          <h3>C Language</h3>
-          <p>
+        <div class="skill-2">
+          <img
+            class="skill-image image-right"
+            src="c-document.png"
+            alt="c-language"
+          />
+          <h3 class="skill-topic">C Language</h3>
+          <p class="skill-brief">
             I have high school level knowledge of C language by which I am able
             to understand how code works and planning to switch to C++ or java
             to understand the concept of Object-Oriented Programming.
           </p>
         </div>
-      </div>
+      </section>
       <hr />
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>If you love my project</h3>
-        <p>
+      <section class="contact">
+        <h2 class="section-intro contact-heading">Get In Touch</h2>
+        <h3 class="contact-topic">If you love my project</h3>
+        <p class="contact-brief">
           Or have any suggestions or want me to contribute to your front-end
           project of my skill level please consider reaching me through my
           socials link given below.
         </p>
         <a class="btn" href="mailto:ankitadhikari31512@gmail.com">CONTACT ME</a>
+      </section>
+    </main>
+    <footer>
+      <div class="links">
+        <a class="contact-links" href="https://www.instagram.com/ankit_31512/"
+          >LinkedIn</a
+        >
+        <a class="contact-links" href="https://twitter.com/AnkitAdhikari_"
+          >Twitter</a
+        >
+        <a class="contact-links" href="https://www.facebook.com/ankit.clarke"
+          >Website</a
+        >
       </div>
-    </div>
-
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.instagram.com/ankit_31512/"
-        >Instagram</a
-      >
-      <a class="footer-link" href="https://twitter.com/AnkitAdhikari_"
-        >Twitter</a
-      >
-      <a class="footer-link" href="https://www.facebook.com/ankit.clarke"
-        >Facebook</a
-      >
-      <p class="copyright">&copy; 2022 Ankit Adhikari.</p>
-    </div>
+      <p>&copy; 2023 Ankit Adhikari.</p>
+    </footer>
   </body>
 </html>
